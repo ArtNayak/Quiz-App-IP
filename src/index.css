@@ -1,0 +1,12 @@
+body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #f2f4f8; font-family: system-ui, sans-serif; color: #1c1e21; }
+.card { background: #fff; padding: 2rem; border-radius: 12px; width: min(92vw, 480px); box-shadow: 0 4px 20px rgb(0 0 0 / 0.1); }
+h1 { font-size: 1.3rem; margin: 0.5rem 0 1.2rem; }
+.progress { margin: 0; color: #666; font-size: 0.9rem; }
+.score { font-size: 1.2rem; }
+.options { display: grid; gap: 0.6rem; }
+button { padding: 0.7rem 1rem; border: 1px solid #ccd; border-radius: 8px; background: #fff; font-size: 1rem; cursor: pointer; text-align: left; }
+button:hover:not(:disabled) { background: #eef; }
+button.correct { background: #d4f5dd; border-color: #2e9e4f; }
+button.wrong { background: #fcd9d9; border-color: #d33; }
+.next { margin-top: 1.2rem; background: #3b5bdb; color: #fff; border: 0; text-align: center; }
+.next:disabled { opacity: 0.4; cursor: default; }
